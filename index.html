@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Website Layout</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #4CAF50;
+        }
+
+        /* Content */
+        .container {
+            display: flex;
+            padding: 20px;
+        }
+
+        .main {
+            flex: 3;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .sidebar {
+            flex: 1;
+            padding: 20px;
+            background-color: #ddd;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>My Website</h1>
+        <p>Welcome to my page</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- Content -->
+    <div class="container">
+        <div class="main">
+            <h2>Main Content</h2>
+            <p>This is the main content area.</p>
+        </div>
+
+        <div class="sidebar">
+            <h3>Sidebar</h3>
+            <p>Extra information here.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 My Website</p>
+    </footer>
+
+</body>
+</html>
